@@ -24,6 +24,7 @@ echo "==============================================="
     green "Port login : 22"
     green "VPS password root saat ini: $mima"
     echo "============================================"
+    echo "Script By Wintuneling VPN T.me/CorrodedVomit"
 else
     red "VPS ini tidak mendukung akun root atau tidak dapat menyetel password root kustom" && exit 1
 fi
