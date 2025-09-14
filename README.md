@@ -1,7 +1,7 @@
 # VPS-ROOT AKSES EASY
 
--Mudah tanpa menganti sshd-config
--Support ubuntu dan debian(test sendiri)
+- Mudah tanpa menganti sshd-config
+- Support OS Ubuntu dan Debian(Test Sendiri)
 -
 
 
