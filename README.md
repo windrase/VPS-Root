@@ -1,9 +1,11 @@
 # VPS-ROOT AKSES EASY
 
-- Mudah tanpa menganti sshd-config
-- Support OS Ubuntu dan Debian(Test Sendiri)
--
+- Mudah Tanpa Ganti sshd-config
+- Support OS Ubuntu Dan Debian(Test Sendiri)
+- Proses Akses Root Cepat
+- Tidak Delay
+  
 
-
+# LINK
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/windrase/vpsroot/main/root.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/windrase/VPS-Root/main/root.sh)
