@@ -19,6 +19,7 @@ echo "==============================================="
     $su sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
     $su sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
     $su service sshd restart
+    green "Mohon Simpan Informasi Akun VPS Ini!!"
     echo "============================================"
     green "VPS username saat ini: root"
     green "Port login : 22"
