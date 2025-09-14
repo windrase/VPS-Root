@@ -12,15 +12,18 @@ prl=`grep PermitRootLogin /etc/ssh/sshd_config`
 pa=`grep PasswordAuthentication /etc/ssh/sshd_config`
 if [[ -n $prl && -n $pa ]]; then
 echo "==============================================="
-echo "                   LazyDev                     "
+echo "                WINTUNELING VPN                "
 echo "==============================================="
     read -p "Masukkan password root yang ingin disetel: " mima
     echo root:$mima | $su chpasswd root
     $su sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
     $su sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
     $su service sshd restart
+    echo "============================================"
     green "VPS username saat ini: root"
+    green "Port login : 22"
     green "VPS password root saat ini: $mima"
+    echo "============================================"
 else
     red "VPS ini tidak mendukung akun root atau tidak dapat menyetel password root kustom" && exit 1
 fi
