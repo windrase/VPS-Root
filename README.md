@@ -6,6 +6,7 @@
 - Support OS Ubuntu Dan Debian(Test Sendiri)
 - Proses Akses Root Cepat
 - Tidak Delay
+- Password 100% Aman
   
 # LINK
 ```
