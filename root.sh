@@ -12,7 +12,7 @@ prl=`grep PermitRootLogin /etc/ssh/sshd_config`
 pa=`grep PasswordAuthentication /etc/ssh/sshd_config`
 if [[ -n $prl && -n $pa ]]; then
 echo "==============================================="
-echo "                WINTUNELING VPN                "
+echo "=               WINTUNELING VPN               ="
 echo "==============================================="
     read -p "Masukkan password root yang ingin disetel: " mima
     echo root:$mima | $su chpasswd root
